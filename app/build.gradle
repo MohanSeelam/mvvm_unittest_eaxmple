@@ -3,9 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android'
     id 'kotlin-kapt'
-  id 'dagger.hilt.android.plugin'
+    id 'dagger.hilt.android.plugin'
 }
-
 
 android {
     compileSdkVersion 32
@@ -99,7 +98,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1")
-      implementation project(':reusable')
+    implementation project(':reusable')
 
     testImplementation "org.mockito:mockito-inline:3.11.2"
 }
