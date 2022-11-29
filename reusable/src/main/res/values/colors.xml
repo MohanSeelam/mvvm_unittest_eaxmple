@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_red_bui" >#EF2637</color>
+    <color name="brand_grey_bui" >#5A5A5F</color>
+    <color name="_2_grey_bui" >#ACACAF</color>
+    <color name="transparent_bui" >@android:color/transparent</color>
+    <color name="white_bui" >#FFFFFF</color>
+    <color name="rouge_bui" >#BF1E2C</color>
+    <color name="white_ui_unchanged" >#FFFFFF</color>
+    <color name="secondary_red_50_bui" >#F48F98</color>
+</resources>

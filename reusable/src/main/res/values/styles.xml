@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="primaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_primary_selector</item>
+        <item name="android:textColor">@color/white_ui_unchanged</item>
+        <item name="android:textSize">@dimen/eighteen_sp_ui</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+        <item name="android:lineSpacingExtra">@dimen/six_dp_ui</item>
+    </style>
+
+    <style name="text_medium_18_24">
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+        <item name="android:textSize">@dimen/eighteen_sp_ui</item>
+        <item name="android:lineSpacingExtra">@dimen/six_dp_ui</item>
+        <item name="android:textColorLink">@color/brand_red_bui</item>
+    </style>
+</resources>

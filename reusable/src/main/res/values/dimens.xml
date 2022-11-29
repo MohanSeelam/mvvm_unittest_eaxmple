@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "six_dp_ui" >6dip</dimen>
+    <dimen name = "four_dp_ui" >4dip</dimen>
+    <dimen name = "eighteen_sp_ui" >18sp</dimen>
+</resources>

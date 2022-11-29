@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UIButton">
+        <attr name="type" format="enum">
+            <enum name="primary" value="0"/>
+            <enum name="secondary" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="UICard">
+        <attr name="primaryText" format="string"/>
+        <attr name="secondaryText" format="string"/>
+        <attr name="leftImage" format="integer"/>
+        <attr name="leftImageSize" format="dimension"/>
+        <attr name="showButton" format="boolean"/>
+        <attr name="showButtonText" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="UICheckBox">
+        <attr name="title" format="string"/>
+        <attr name="secondaryText"/>
+        <attr name="primaryText" />
+        <attr name="leftImage" />
+        <attr name="leftImageSize"/>
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+
+</resources>
